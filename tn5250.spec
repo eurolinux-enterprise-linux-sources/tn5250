@@ -1,7 +1,7 @@
 Summary:   5250 Telnet protocol and Terminal
 Name:      tn5250
 Version:   0.17.4
-Release:   10%{?dist}
+Release:   8%{?dist}
 License:   LGPLv2+
 Group:     Applications/Internet
 Source:    http://prdownloads.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
@@ -93,12 +93,6 @@ fi
 %{_libdir}/*.so
 
 %changelog
-* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.17.4-10
-- Mass rebuild 2014-01-24
-
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.17.4-9
-- Mass rebuild 2013-12-27
-
 * Fri Feb 15 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.17.4-8
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
